@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI排行榜 - AI Tools Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .ranking-jump {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+        }
+        .jump-btn {
+            background: var(--primary-color, #2563eb);
+            color: #fff;
+            font-size: 1.3rem;
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            transition: background 0.2s, box-shadow 0.2s;
+            margin-top: 2rem;
+        }
+        .jump-btn:hover {
+            background: #1d4ed8;
+            box-shadow: 0 4px 16px rgba(37,99,235,0.10);
+        }
+        .ranking-jump p {
+            color: #374151;
+            font-size: 1.1rem;
+            margin-top: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">AI Tools Hub</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#text">文本</a></li>
+                    <li><a href="index.html#image">图像</a></li>
+                    <li><a href="index.html#audio">音频</a></li>
+                    <li><a href="index.html#video">视频</a></li>
+                    <li><a href="index.html#code">编程</a></li>
+                    <li><a href="index.html#productivity">效率</a></li>
+                    <li><a href="index.html#academic">学术/论文</a></li>
+                    <li><a href="https://maomu.com/rank/visits" target="_blank" rel="noopener" class="active">AI排行榜</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="ranking-jump">
+            <h2>AI排行榜</h2>
+            <button class="jump-btn" onclick="window.open('https://maomu.com/rank/visits','_blank')">前往猫目AI排行榜官网 &rarr;</button>
+            <p>数据实时、全面，涵盖全球与中国主流AI产品流量、评分、价格等榜单。</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 AI Tools Hub. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html> 

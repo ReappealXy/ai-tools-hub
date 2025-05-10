@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tools Hub - 发现优质AI工具</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">AI Tools Hub</h1>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#text" class="active">文本</a></li>
+                    <li><a href="#image">图像</a></li>
+                    <li><a href="#audio">音频</a></li>
+                    <li><a href="#video">视频</a></li>
+                    <li><a href="#code">编程</a></li>
+                    <li><a href="#productivity">效率</a></li>
+                    <li><a href="#academic">学术/论文</a></li>
+                    <li><a href="https://maomu.com/rank/visits" target="_blank" rel="noopener" class="active">AI排行榜</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section id="text" class="category-section">
+                <h2>文本处理</h2>
+                <div class="tools-grid">
+                    <a href="https://chat.openai.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🤖</div>
+                        <h3>ChatGPT</h3>
+                        <p>OpenAI开发的AI对话模型，支持自然语言交互</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://kimi.moonshot.cn/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌙</div>
+                        <h3>Kimi智能助手</h3>
+                        <p>月之暗面推出的长文本AI助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://tongyi.aliyun.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🅰️</div>
+                        <h3>通义千问</h3>
+                        <p>阿里云推出的多模态大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://yiyan.baidu.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔵</div>
+                        <h3>文心一言</h3>
+                        <p>百度推出的中文大语言模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.baichuan-ai.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🏔️</div>
+                        <h3>百川大模型</h3>
+                        <p>百川智能推出的多语言大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://chatglm.cn/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🧊</div>
+                        <h3>智谱清言</h3>
+                        <p>智谱AI推出的中文大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://xinghuo.xfyun.cn/" class="tool-card" target="_blank">
+                        <div class="tool-icon">✨</div>
+                        <h3>讯飞星火</h3>
+                        <p>科大讯飞推出的AI大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://chat.sensetime.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🟥</div>
+                        <h3>商汤日日新</h3>
+                        <p>商汤科技推出的多模态AI助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.minimax.chat/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🟦</div>
+                        <h3>MiniMax</h3>
+                        <p>MiniMax推出的对话式AI助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://ai.360.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🟩</div>
+                        <h3>360智脑</h3>
+                        <p>360推出的中文大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://hunyuan.tencent.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">☁️</div>
+                        <h3>腾讯混元</h3>
+                        <p>腾讯推出的多模态大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://pangu.huaweicloud.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🐉</div>
+                        <h3>华为盘古</h3>
+                        <p>华为云推出的AI大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.anthropic.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🤖</div>
+                        <h3>Claude</h3>
+                        <p>Anthropic最新一代AI助手，支持多模态</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.mistral.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌪️</div>
+                        <h3>Mistral AI</h3>
+                        <p>法国开源AI模型，性能优异</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.perplexity.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔎</div>
+                        <h3>Perplexity AI</h3>
+                        <p>AI驱动的搜索引擎和问答系统</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://gemini.google.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌐</div>
+                        <h3>Google Gemini</h3>
+                        <p>谷歌推出的多模态大模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://llama.meta.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🦙</div>
+                        <h3>Meta Llama</h3>
+                        <p>Meta推出的开源大模型</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                    <a href="https://www.character.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">👥</div>
+                        <h3>Character.AI</h3>
+                        <p>AI角色扮演和对话平台</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.notion.so" class="tool-card" target="_blank">
+                        <div class="tool-icon">📝</div>
+                        <h3>Notion AI</h3>
+                        <p>智能笔记和知识管理工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.grammarly.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">✍️</div>
+                        <h3>Grammarly</h3>
+                        <p>AI驱动的英文写作助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.jasper.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">📄</div>
+                        <h3>Jasper</h3>
+                        <p>AI营销文案和内容创作助手</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.copy.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">📋</div>
+                        <h3>Copy.ai</h3>
+                        <p>AI文案生成工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="image" class="category-section">
+                <h2>图像生成</h2>
+                <div class="tools-grid">
+                    <a href="https://www.midjourney.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎨</div>
+                        <h3>Midjourney</h3>
+                        <p>AI图像生成工具，支持文本到图像转换</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.dall-e.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🖼️</div>
+                        <h3>DALL-E</h3>
+                        <p>OpenAI的图像生成模型</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://stability.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎯</div>
+                        <h3>Stable Diffusion</h3>
+                        <p>开源的AI图像生成模型</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.canva.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎨</div>
+                        <h3>Canva AI</h3>
+                        <p>AI辅助设计工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.remove.bg" class="tool-card" target="_blank">
+                        <div class="tool-icon">✂️</div>
+                        <h3>Remove.bg</h3>
+                        <p>AI智能抠图工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.leonardo.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎭</div>
+                        <h3>Leonardo.ai</h3>
+                        <p>AI艺术创作平台</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.bluewillow.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌊</div>
+                        <h3>BlueWillow</h3>
+                        <p>AI图像生成工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.lexica.art" class="tool-card" target="_blank">
+                        <div class="tool-icon">🖼️</div>
+                        <h3>Lexica</h3>
+                        <p>AI艺术搜索引擎</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                    <a href="https://www.playground.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎮</div>
+                        <h3>Playground AI</h3>
+                        <p>AI图像生成和编辑平台</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.artbreeder.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎨</div>
+                        <h3>Artbreeder</h3>
+                        <p>AI艺术混合和创作工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="audio" class="category-section">
+                <h2>音频处理</h2>
+                <div class="tools-grid">
+                    <a href="https://elevenlabs.io" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎙️</div>
+                        <h3>ElevenLabs</h3>
+                        <p>AI语音合成和克隆工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.mubert.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎵</div>
+                        <h3>Mubert</h3>
+                        <p>AI音乐生成工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.riffusion.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎸</div>
+                        <h3>Riffusion</h3>
+                        <p>AI音乐生成和混音工具</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                    <a href="https://www.descript.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎤</div>
+                        <h3>Descript</h3>
+                        <p>AI音频编辑和转录工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.soundraw.io" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎼</div>
+                        <h3>Soundraw</h3>
+                        <p>AI音乐生成平台</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.voicemod.net" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎤</div>
+                        <h3>Voicemod</h3>
+                        <p>AI实时变声器</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.resemble.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🗣️</div>
+                        <h3>Resemble AI</h3>
+                        <p>AI语音克隆和合成</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="video" class="category-section">
+                <h2>视频制作</h2>
+                <div class="tools-grid">
+                    <a href="https://www.descript.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎥</div>
+                        <h3>Descript</h3>
+                        <p>AI视频编辑和字幕生成工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.synthesia.io" class="tool-card" target="_blank">
+                        <div class="tool-icon">👤</div>
+                        <h3>Synthesia</h3>
+                        <p>AI数字人视频生成平台</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.runwayml.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎬</div>
+                        <h3>Runway</h3>
+                        <p>AI视频编辑和特效工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.d-id.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">🤖</div>
+                        <h3>D-ID</h3>
+                        <p>AI数字人视频生成</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.heygen.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">👤</div>
+                        <h3>HeyGen</h3>
+                        <p>AI数字人视频生成平台</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.pictory.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">📹</div>
+                        <h3>Pictory</h3>
+                        <p>AI视频摘要和编辑工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="code" class="category-section">
+                <h2>编程辅助</h2>
+                <div class="tools-grid">
+                    <a href="https://github.com/features/copilot" class="tool-card" target="_blank">
+                        <div class="tool-icon">💻</div>
+                        <h3>GitHub Copilot</h3>
+                        <p>AI代码助手，支持多种编程语言</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.tabnine.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">⌨️</div>
+                        <h3>Tabnine</h3>
+                        <p>AI代码补全工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.cursor.sh" class="tool-card" target="_blank">
+                        <div class="tool-icon">📝</div>
+                        <h3>Cursor</h3>
+                        <p>AI驱动的代码编辑器</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                    <a href="https://www.debuild.app" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌐</div>
+                        <h3>Debuild</h3>
+                        <p>AI网站生成工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.replit.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">💻</div>
+                        <h3>Replit</h3>
+                        <p>AI辅助的在线编程平台</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.blackbox.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">📦</div>
+                        <h3>Blackbox AI</h3>
+                        <p>AI代码搜索和生成工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.codiga.io" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔍</div>
+                        <h3>Codiga</h3>
+                        <p>AI代码分析和建议工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.mintlify.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">📚</div>
+                        <h3>Mintlify</h3>
+                        <p>AI文档生成工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://trae.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🚀</div>
+                        <h3>TrAEL</h3>
+                        <p>AI代码生成与自动化工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://windsurf.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🌊</div>
+                        <h3>Windsurf</h3>
+                        <p>AI代码搜索与上下文理解工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://codegeex.cn" class="tool-card" target="_blank">
+                        <div class="tool-icon">🧬</div>
+                        <h3>CodeGeeX</h3>
+                        <p>智谱AI推出的多语言代码大模型</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                    <a href="https://tongyi.aliyun.com/lingma" class="tool-card" target="_blank">
+                        <div class="tool-icon">🅰️</div>
+                        <h3>通义灵码</h3>
+                        <p>阿里云推出的AI编程助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://comate.baidu.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔵</div>
+                        <h3>百度Comate</h3>
+                        <p>百度推出的AI代码助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://ai.360.com/code" class="tool-card" target="_blank">
+                        <div class="tool-icon">🟩</div>
+                        <h3>360智编</h3>
+                        <p>360推出的AI代码助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://aws.amazon.com/codewhisperer/" class="tool-card" target="_blank">
+                        <div class="tool-icon">☁️</div>
+                        <h3>Amazon CodeWhisperer</h3>
+                        <p>亚马逊的AI代码补全工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://sourcegraph.com/cody" class="tool-card" target="_blank">
+                        <div class="tool-icon">🤖</div>
+                        <h3>Sourcegraph Cody</h3>
+                        <p>Sourcegraph的AI代码助手</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.phind.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔎</div>
+                        <h3>Phind</h3>
+                        <p>AI驱动的开发者搜索引擎</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.askcodi.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">💡</div>
+                        <h3>AskCodi</h3>
+                        <p>AI代码生成与问答工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://tabbyml.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🐱</div>
+                        <h3>Tabby</h3>
+                        <p>开源AI代码补全工具</p>
+                        <span class="tool-tag">免费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="productivity" class="category-section">
+                <h2>效率工具</h2>
+                <div class="tools-grid">
+                    <a href="https://www.notion.so" class="tool-card" target="_blank">
+                        <div class="tool-icon">📝</div>
+                        <h3>Notion AI</h3>
+                        <p>智能笔记和知识管理工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.tome.app" class="tool-card" target="_blank">
+                        <div class="tool-icon">📊</div>
+                        <h3>Tome</h3>
+                        <p>AI演示文稿生成工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.beautiful.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎯</div>
+                        <h3>Beautiful.ai</h3>
+                        <p>AI演示文稿设计工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.otter.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🎙️</div>
+                        <h3>Otter.ai</h3>
+                        <p>AI会议记录和转录工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.fireflies.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔥</div>
+                        <h3>Fireflies.ai</h3>
+                        <p>AI会议助手和转录工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.mem.ai" class="tool-card" target="_blank">
+                        <div class="tool-icon">🧠</div>
+                        <h3>Mem.ai</h3>
+                        <p>AI知识管理和笔记工具</p>
+                        <span class="tool-tag">付费</span>
+                    </a>
+                    <a href="https://www.taskade.com" class="tool-card" target="_blank">
+                        <div class="tool-icon">✅</div>
+                        <h3>Taskade</h3>
+                        <p>AI项目管理工具</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.gamma.app" class="tool-card" target="_blank">
+                        <div class="tool-icon">📊</div>
+                        <h3>Gamma</h3>
+                        <p>AI演示文稿和文档生成</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                </div>
+            </section>
+
+            <section id="academic" class="category-section">
+                <h2>学术/论文</h2>
+                <div class="tools-grid">
+                    <a href="https://www.typeset.io/copilot" class="tool-card" target="_blank">
+                        <div class="tool-icon">🧑‍🔬</div>
+                        <h3>Scispace Copilot</h3>
+                        <p>AI论文写作与学术助手，支持润色和文献推荐</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.writefull.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">✍️</div>
+                        <h3>Writefull</h3>
+                        <p>AI英文论文润色与学术句式建议</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.paperpal.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">📄</div>
+                        <h3>Paperpal</h3>
+                        <p>AI学术写作、语法润色、论文结构优化</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://jenni.ai/" class="tool-card" target="_blank">
+                        <div class="tool-icon">📝</div>
+                        <h3>Jenni AI</h3>
+                        <p>AI辅助论文写作、自动补全文段、学术引用</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.trinka.ai/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🔬</div>
+                        <h3>Trinka AI</h3>
+                        <p>学术英语润色、技术写作优化、查重</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.scribbr.com/ai/" class="tool-card" target="_blank">
+                        <div class="tool-icon">📑</div>
+                        <h3>Scribbr AI</h3>
+                        <p>AI论文改写、查重、引用生成</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://quillbot.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🪶</div>
+                        <h3>QuillBot</h3>
+                        <p>AI改写、摘要、学术写作辅助</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://xiezuo.cnki.net/" class="tool-card" target="_blank">
+                        <div class="tool-icon">📚</div>
+                        <h3>知网写作助手</h3>
+                        <p>中文论文写作、查重与智能改写</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.ixueshu.com/ai/" class="tool-card" target="_blank">
+                        <div class="tool-icon">📖</div>
+                        <h3>小木虫AI写作</h3>
+                        <p>学术论文AI写作、润色、查重</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://www.papereasy.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🧾</div>
+                        <h3>PaperEasy</h3>
+                        <p>AI论文生成、降重、查重、智能改写</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://xiezuocat.com/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🐱</div>
+                        <h3>秘塔写作猫</h3>
+                        <p>AI写作、学术润色、论文降重</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                    <a href="https://ai.wanfangdata.com.cn/" class="tool-card" target="_blank">
+                        <div class="tool-icon">🏛️</div>
+                        <h3>万方AI写作</h3>
+                        <p>学术论文AI写作、查重、改写</p>
+                        <span class="tool-tag">免费/付费</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 AI Tools Hub. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
